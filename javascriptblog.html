@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT BLOG</title>
+    <style>
+        #content {
+            background-color: rgb(243, 243, 204);
+            text-align: center;
+            color: maroon;
+            padding: 0;
+            border: 3px;
+            box-sizing: border-box;
+            display: block;
+            font-family: 'Courier New', Courier, monospace;
+            justify-content: center;
+            margin-top: 0;
+        }
+        
+        #heading-center {
+            text-align: center;
+            color: maroon;
+            background-color: rgb(220, 220, 30);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading-center">JavaScript</h1>
+    <P id="content">Event.stopPropagation() and Event.preventDefault() JavaScript event handling is often straightforward. This is especially true when dealing with a simple (relatively flat) HTML structure. Things get a bit more involved though when events are traveling
+        (or propagating) through a hierarchy of elements. This is typically when developers reach for stopPropagation() and/or preventDefault() to solve the problems they're experiencing. If you've ever thought to yourself "I'll just try preventDefault()
+        and if that doesn't work I'll try stopPropagation() and if that doesn't work, I'll try both," then this article is for you! I will explain exactly what each method does, when to use which one, and provide you with a variety of working examples
+        for you to explore. My goal is to end your confusion once and for all. Before we dive too deeply though, it's important to briefly touch on the two kinds of event handling possible in JavaScript (in all modern browsers that is—Internet Explorer
+        prior to version 9 did not support event capturing at all). Eventing styles (capturing and bubbling) # All modern browsers support event capturing, but it is very rarely used by developers. Interestingly, it was the only form of eventing that
+        Netscape originally supported. Netscape's biggest rival, Microsoft Internet Explorer, did not support event capturing at all, but rather, only supported another style of eventing called event bubbling. When the W3C was formed, they found merit
+        in both styles of eventing and declared that browsers should support both, via a third parameter to the addEventListener method. Originally, that parameter was just a boolean, but all modern browsers support an options object as the third parameter,
+        which you can use to specify (among other things) if you want to use event capturing or not:</P>
+</body>
+
+</html>
